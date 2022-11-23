@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  body {
+    margin: auto;
+    height: 80vh;
+    margin-top: 10px;
+    width: 80vh;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.596);
+    padding: 30px;
+    border-radius: 30px;
+    border: 10px solid rgba(255, 0, 0, 0.658);
+    box-shadow: 0 0 5px 0 black;
+  }
+
+  body:hover {
+    box-shadow: 0 0 50px 0 black;
+    transition-duration: 1s;
+    background-color: #fff;
+    color: black;
+    border-color: aqua;
+  }
+
+  a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: teal;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 37%;
+  }
+
+  img {
+    width: 350px;
+    height: 220px;
+    margin: auto;
+    position: absolute;
+    bottom: 30px;
+    left: 590px;
+    right: auto;
+  }
+
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    background-color: #fff;
+    font-size: 20px;
+
+  }
+</style>
+<script src="./main.js"></script>
+
+<body>
+  <img src="./car.jpg" alt="rainbow car">
+  <video width="320" height="240" controls>
+    <source src="./carr.mp4" type="video/mp4">
+    <source src="./carr.mp4" type="video/ogg">
+    Your browser does not support the video tag.
+  </video>
+  <p>
+    Siz o'ylagan mashina
+  </p>
+  <p class="text">
+    Men sizning oldingizga ketyapman !!!
+  </p>
+
+</body>
+
+</html>
